@@ -1,0 +1,22 @@
+﻿Theme
+The sprites should have a campy cartoony feel to them. 
+Ideally I would like them to be somewhere around the quality 
+that would have been expected in a SNES game (super mario world-ish).
+All of them should have 60x60 pixel frames and should come close
+to filling the frames (I want things to look a little bit chubby).
+
+
+- Characters
+	- 4 zoo animals (12 frames each)
+		- walking animation
+		- open mouth frame
+		- jumping animation
+		- hurt frame
+	- 10 robots (6 frames each)
+		- walking animation
+		- hurt frame
+- 10 static objects
+	- a hand full of different fruits
+	- shoes
+	- clock
+	- couple others

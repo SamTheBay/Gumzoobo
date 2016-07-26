@@ -1,0 +1,5 @@
+﻿- Make a new character "super bouncer" which occasionaly does very high jumps
+- Make a new character "fire drone" which shoots fireballs
+- Make levels in which your position can get randomly changed when falling through the bottom
+- Make a new character "Target Lazer Bot" which aims its lazers at the players
+- Bubble currents on some levels

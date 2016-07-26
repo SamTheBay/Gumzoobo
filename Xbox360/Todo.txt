@@ -1,0 +1,207 @@
+﻿
+Review Bugs
+X spelling errors
+X some levels too difficult
+- Instructions were disorganized
+X UI is cropped off on some tv's (nothing I can do now)
+
+
+Next Tasks
+- Submit for peer review
+
+
+Bugs
+
+Pushed Bugs
+- make super bubbles work for wrapping the screen
+- super bubbles pop when jumping on them sometimes
+- enemies can pop in invisible areas when they time out above the screen
+
+Test
+
+
+Balance Issues
+- Adjust the amount of ammo per pick-up (much less grape gum)
+- Adjust the chew cost per shot (shooting should be more expensive)
+- Balance check all the levels to make sure they are playable
+- Enemies need to pop out of bubbles faster (possibly configurable)
+- Adjust the damage for different hits
+- Adjust the health for fruit
+- Adjust the speed that enemies shoot at
+- Adjust how long items take to expire
+- Adjust points for fruit
+- Adjust how many points for a new life
+
+
+
+Future Ideas (v2)
+- Build level designer
+- make a "plungerbot" that walks around platforms
+- make a ghost bot that can fly through walls soemtimes
+- make a durabot that has multiple lives
+- make seaker bot that has smart pathfinding (will have to run on a separate thread)
+- add effect to flash white when getting a crystal ball
+- Animated foregrounds / backgrounds
+- Add in bosses
+- tutorial level to teach people how to play
+- add fireworks to the congratulations screen
+- Orange gum that goes through walls
+- Gum that you can ride inside of (force field gum?)
+- Bad items that make you
+	- die
+	- lose special gum
+	- run too slow
+	- loose your special abilities
+- Add a new special item that increases the lethal duration of your shots (use bubble icon)
+- Add health bar that displays next to character after life changes
+- Add in behavior for when the players are taking too long on a level
+- Add animations for stuck robots (trying to break out)
+- Add animations for players so that they open their mouth when shooting
+- Create moving platforms in the levels
+
+
+
+Purchases
+X Sprites for all characters ($450) + small profit share (under 5%)
+X Cover art($50)
+	- Game box cover
+	- Zoo map art
+	- thumbnail
+X Backgrounds and Foregrounds($250)
+X UI ($150)
+X Music ($0)
+	- Game Theme Song
+	- Per Level Songs (Dustin and Ben are on it)
+X Sound FX ($0)
+	- Matt is on it
+	
+	
+	
+	
+	
+	
+Completed Tasks
+X Add Environment sprites
+X Build collision detection
+X Setup Gravity
+X Build jumping
+X Finish Player Display
+X Build enemies
+X Build AI
+X Build weapon-enemy collisions
+X Build a projectile class that can be inherited from
+X Build enemy death
+X Enhance animations with rotation
+X Bubbles should float up after they are no longer lethal
+X Build objects into the game
+X Build chewing for bubbles
+X Build weapon scrolling
+X Build ammo for weapons \ ammo pickups
+X Build level transitions
+X Fill out weapons
+X Finish Super Bubble functionality
+X Build backgrounds into levels (steal something cartoony)
+X Fill out enemies
+X Finish homing for Hunter
+X Build player selection
+X Build start menu screen
+X Build level map screen
+X Build Seal
+X Build Tortoise
+X Build Toad
+X Build Penguin
+X Build Trial Version
+X Build Trial Version Window
+X Build in game help windows
+X Plug in final graphics
+X Build points bubbles
+X Redesign chewing
+X Remove Bubblebobble content
+X Move level graphics into the level set holders
+X build save and load game
+X Pretty up windows
+X Build Shoes
+X Build Clock
+X Build Crystal Ball
+X Build Rainbow Gum
+X Build Necklace
+X Tune color scheme for visibility
+X Build correct master controller functionality
+X Finish the load screen
+X Add in sound effects
+X Add animations to map screen
+X Build smooth level transitions
+X Add player pause menu's
+X Setup player dropout
+X Add credits
+X Hook in porkybot jump animation
+X Adjust bouncer jump animation
+X Finalize on item popups
+X Randomize invisibots invisibility 
+X Randomize lazerbots shooting (or just add in 8 directional for a higher level bot)
+X Make characters not die on touching robots
+X Add in a short invulnerable period after being hit
+X Enemies should change color when they are about to pop
+X Add 8 directional (then implement it into rocket bots)
+X idle for enemies
+X Build in "Super bots"
+	X fire drone
+	X super jumper
+	X warp bot
+	X fire explosion rocketbot
+X Add in invisible foreground around where players are located
+X Add sprites into the credits
+X Built a "cut scene" system
+X Add opening screen
+X Add intro story (build simple story boarding system, could use pawns)
+X Add controls \ how to play screen
+X Build a "Win" screen
+X Add in last background
+X Add in cover art
+X make only one instance of most sfx allowed so things aren't too loud
+X Fix game to request main user to log in if they are not
+X Continue adding in SFX (slice slide)
+X Add in background music
+X Add in map art
+X Add lights out shader for night house
+X make warpbots only show up in valid locations (items as well)
+	X precalculate "warpable" places when level is loaded (can use for randoms as well)
+X Refactor LocationDescriptor to hold music and cut scene. Clean out unused pieces.
+X Invisibot help screen, porkey bot help screen, hunterbot help screen, warpbot help screen
+X Make simple cut scenes for each level
+X Add arrows to player selection screen
+X Auto select when there is only one character option
+X Fill out levels
+X Add a please rate us screen
+X Add an intro screen for ATYG
+X Polish opening screen
+X Make levels have a variable length of time that bubbles expire at
+X Make levels have variable gravity / bubble rise speed
+X Fatten up health/chew bars to increase visibility
+X Make pawns follow path on map screen
+X Make items on the map expire after a time
+X Its a pain to know what weapon you are (float the weapon above head when switching?)
+X Make multiple players able to join at start
+X Make chewing gum for immediate shot
+X Show controls on pause menu
+X Create instuctions screen that shows all help windows
+X Show help windows on pause menu
+X Polish up levels
+X Setup levels to take advantage of bubble speeds\pop speeds
+X Hook in new player display
+X Add menu animations (fly in entries)
+X Make rate screen a cut scene
+X Make arrows swell on insructions screen
+X Make pop-ups fly on and off screen (finish instructions screen)
+X Add fireworks to victory screen
+X Create "are you sure" pop up for deleting save games
+X Make it possible to play without saving \ logging in
+X Select better weapon colors (need to be light)
+X Make game grey out when not in focus (paused)
+X Update help windows for new display (finalize on colors first) (increase text sizes)
+X Add a "woosh" sound to pop-ups that fly in
+X Add controls screen for windows
+X Add help screens with correct buttons for windows
+X Make victory screen a cut scene
+X Improve fireworks (add multiple colors, make more realistic, add exploding sound effect)
+X Make sure windows game enforces trial mode for demo release

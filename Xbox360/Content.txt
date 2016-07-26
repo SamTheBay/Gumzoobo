@@ -1,0 +1,123 @@
+﻿Players (200)
+	- Frog
+	- Tortoise
+	- Seal
+	- Penguin
+
+
+
+* Enemies (250)
+	- Drone(D)
+		> Super simple, just walks back and forth (4 frame walk)
+	- Bouncer(B)
+		> Jumps back and forth (4 frame hop)
+	- LazerBot(L)
+		> Walks back and forth, but shoots lazers down (4 frame walk, need some kinda lazer canon pointing down)
+	- Spikey(S)
+		> Can't be trapped in bubbles, have to kill it with explosives (4 frame walk, 4 frame jump, should look like it has sharp edges that would pop a bubble)
+	- InvisiBot(I)
+		> Goes invisible occasionally, easiest to kill with homing ammo	(4 frame walk, might look extra sci-fi-ish and hi tech)
+	- RocketPacker(R)
+		> Flies around the map linearly (4 frame fly, should be pointing at a 45 degree angle since thats how he will fly. I envision either with a rocket pack ro rocket shoes)
+	- Hunter(H)
+		> Flies around the map and path finds players (4 frame fly)
+	- LavaBot(A)
+		> Shoots fireballs, must be killed with cool mint
+	- MissileBot(M)
+		> shoots homing missiles
+	
+	
+* Weapons 
+	- Player Weapons
+		> Bubbles
+			~ Basic Weapon that can be jumped on
+		> Cinnemon
+			~ Exploding weapon that kills in a fairly large radius
+		> CoolMint
+			~ Ice weapon, bubbles don't float when the trap bad guys
+		> Grape
+			~ Multi-shot puts out 3 bubbles at once in different directions
+		> SuperBubble
+			~ "Strong" bubble that doesn't pop when jumped on
+		> ABC
+			~ no need to chew with this weapon (rapid fire)
+		> 
+			~ Homing bubbles that head towards closest bad guy
+		> Chewing Gum
+			~ mine bubbles that sit on the groud to catch guys
+	
+	- Enemy Weapons
+		> Lazer
+		> Fireball
+		> Homing Misile
+		
+		
+* Items (50)
+	- Points and Health
+		~ Apple
+		~ Watermelon
+		~ Cherries
+		~ Orange
+		~ Bannana
+		~ Lemon
+	
+	- Weapons
+		~ Cinnemon gum pack
+		~ Mint gum pack
+		~ Grape gum pack
+		~ gross chewed up abc gum
+		~ "Double-bubble" gum pack (no branding though)
+	
+	- Special Actions
+		~ Shoes
+			# Increase movement speed for a time
+		~ Clock
+			# Freeze all enemies for a time
+		~ Jeweled Necklace
+			# Invincible for a short time
+		~ Rainbow pack of gum (Im thinking like fruit stripes used to be)
+			# Infinite gum chewed and ammo for short time
+		~ Crystal ball
+			# Skip to next level
+
+
+* Graphics
+	- Cover Art
+	- Title Icon
+	- Button for title
+	- Zoo Map
+	- Map Buttons
+	- Players UI	
+		~ boarder
+		~ background
+		~ Life \ Chew bars
+	- 10 backgrounds (864wx720h)
+	- 10 foregrounds
+	- 10 platform tiles (24x24 pixels)
+		
+		
+		
+* Level Help Screens
+	- Shooting bubbles to kill enemies
+	- Collect fruit for points and health
+	- Jumping on bubbles
+	- Jumping on bubbles through the top
+	- Collecting ammo and items \ changing weapons
+	- Riding super bubbles
+	- Special Items
+	
+	
+* Locations
+	- Butterfly House
+	- Savanah
+	- Monkey House
+	- Jungle
+	- Aquarium
+	- Atrium
+	- Polar Bear Cage
+	- Reptile House
+	- Swamp
+	- Night House
+	- Petting Zoo
+	- Zoo store
+	- Prarie dog plain

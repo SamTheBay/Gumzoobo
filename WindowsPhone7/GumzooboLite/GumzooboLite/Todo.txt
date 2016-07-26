@@ -1,0 +1,158 @@
+﻿Tasks (once I have a phone)
+- Create a settings screen
+	- provide volume adjustment option
+	- provide both control options (buttons or accel)
+	- provide adjust sensetivity of accel
+X Create local high score table
+- Clean out multi-player junk
+- Aggressively balance levels
+- Make intro screen slide to provide more button
+
+
+
+Ship changes
+X get under 20mb
+X prepare icons \ panorama
+X remove level hack
+
+Device Test Bugs
+X Spread out menu buttons, touch is small
+X Make map screen only have icons (not buttons)
+X fix shoot triggered
+X music is too big (try compressing the mp3s more)
+X make play button size larger (into play screen)
+X credits screen ends music
+X don't block too much music
+X wrong player icon for lives
+X jump through top
+	X check fix
+X level in petting zoo that requires jump through top
+X change weapons buttons hard to push (might need to spread them out)
+X check help window alignment
+X Make sure that victory screen works correctly (especially with music loading)
+X make sure bubble life is long enough
+X adjust timing on specials
+X fix top wrap of bubbles
+X test winning level set
+X fix victory to credit screen music transition
+X fix top wrap of stuck enemies
+X Tune accelorometer
+X tune bubble rise accl
+X remove ammo hack
+X Make tile more clear (Correct size! 173x173)
+
+Review Bugs
+X fix spelling errors
+X fix random numbers
+X fix GC to right spot
+X make jumping on bubbles easy
+X clean allocations
+
+
+Device Test Cases
+X Hit back button when entering name of save file
+X Loading different music
+X play levels with more characters on the screen
+X play levels with the hunter bot on them
+X delete save games
+X purchase the full version from trial
+X all buttons behave as expected
+
+
+
+
+
+Balance Issues
+- Adjust the amount of ammo per pick-up (much less grape gum)
+- Adjust the chew cost per shot (shooting should be more expensive)
+- Balance check all the levels to make sure they are playable
+- Enemies need to pop out of bubbles faster (possibly configurable)
+- Adjust the damage for different hits
+- Adjust the health for fruit
+- Adjust the speed that enemies shoot at
+- Adjust how long items take to expire
+- Adjust points for fruit
+- Adjust how many points for a new life
+
+
+
+Future Ideas (v2)
+- Build level designer
+- make a "plungerbot" that walks around platforms
+- make a ghost bot that can fly through walls soemtimes
+- make a durabot that has multiple lives
+- make seaker bot that has smart pathfinding (will have to run on a separate thread)
+- add effect to flash white when getting a crystal ball
+- Animated foregrounds / backgrounds
+- Add in bosses
+- tutorial level to teach people how to play
+- add fireworks to the congratulations screen
+- Orange gum that goes through walls
+- Gum that you can ride inside of (force field gum?)
+- Bad items that make you
+	- die
+	- lose special gum
+	- run too slow
+	- loose your special abilities
+- Add a new special item that increases the lethal duration of your shots (use bubble icon)
+- Add health bar that displays next to character after life changes
+- Add in behavior for when the players are taking too long on a level
+- Add animations for stuck robots (trying to break out)
+- Add animations for players so that they open their mouth when shooting
+- Create moving platforms in the levels
+
+
+
+Purchases
+- Resize art
+	
+	
+	
+Completed Tasks
+X Make sprite batch overload that rotates the screen for me.
+X Rebuild input to use touch
+X clean up rec allocations
+X make specials work
+X resize cut scenes
+X draw lives in hud
+X clean out content
+X check it in
+X Adjust help windows to the new interface
+X Figure out how to save games on phone
+X Figure out how to play audio on phone
+x Resize the content to fit the phone
+	X please rate screen
+	X victory screen
+	X credits screen
+	X controls screen
+	X load game screen
+	X Trial mode screen
+	X Gift Shop Cut
+X Adjust map screen to allow players to touch the actual map icons
+X Add purchase button to intro screen
+X combine controls/instructions
+X Make sure we handle call interupts correctly (just dont draw when not active?)
+X Balance the sound effects volume
+X Redo levels for the new size 
+X See if we can blackout nighthouse somehow
+X Resize monkey house background so the tires are round
+X Perf test on actual device
+X Fix the timing on movement\bubbles as a result of different frame rate
+X Make a way to delete save games
+	X fix are you sure screen layout
+X make a loading screen
+X remove rate screen
+X optimize music so that only needed ones are loaded at any time (will need to use loading screens)
+? Add an options screen (music on/off, master volume)
+X Add Score
+X Reduce music cost
+X Make title buttons center text better
+X Make back button on continue screen have special effect (not just no)
+	X hook this in to the play or delete section
+X Fix music to use media player
+	X provide opt in screen if they are already listening to music
+X double check cut scene text
+X fix text in trial screen
+X undo all hacks but levels
+X Make all buttons have pressed animation
+X Make sure controls screen is wide enough for arrows
